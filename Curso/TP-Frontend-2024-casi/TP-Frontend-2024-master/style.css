@@ -1,0 +1,233 @@
+body{
+    background-color: #dad7cd;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin: 5%;
+    height: 100vh;
+    width: 90%;
+    padding-top: 80px;
+    padding-bottom: 480px;
+    
+}
+
+.barra {
+    background-color: #245501;
+    height: 15%;
+    width: 100%;
+    color: #ccdbdc;
+    text-align: start;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+ 
+}
+.h1{
+    font-style: italic;
+    font-family: sofia, sans-serif;
+    text-align: left;
+    margin-left: 2%;
+    color: #245501; 
+}
+
+.h2{
+    font-style: italic;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    text-align: left;
+    margin-left: 2%;
+    text-indent: 4px;
+}
+h3{
+    font-style: italic;
+    margin-left: 10px;
+    font-size: 150%;
+
+}
+.link{
+    height:40px;
+    width: 350px;
+}
+.nombre{
+    font-family: sofia, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 8px 8px 8px #000000;
+    font-size: 52px;
+    text-align: center;
+    margin-left: 25px;
+
+}
+.nuestras-sucursales{
+    font-style: italic;
+    font-family: sofia, sans-serif;
+    color: #245501;
+    text-shadow: 4px 4px 8px #0f220b;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 25px; 
+}
+
+
+
+
+.historia{
+    height: 60%;
+    border: solid #245501 2px;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    background-color: #fff;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    
+}
+
+
+
+.quien{
+    height: 40%;
+    width: 100%;
+    border: solid #245501 2px;
+    background-color:  #fff;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+
+}
+
+.sucursal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+	margin: 8px;
+	border-radius: 10px;
+    background: #dde5b6;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+	transition: all 400ms ease-out;
+    
+}
+.doble{
+    height: 200%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: solid #245501 2px;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.container-card{
+	width: 70%;
+    height: 50%;
+	display: flex;
+	margin: auto;
+    
+    
+}
+.card{
+	width: 80%;
+	margin: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
+.imgCard{
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+/*.footer{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color:#245501;
+    color: #ccdbdc;
+    font-size:x-small;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+ 
+}
+
+.span-link{
+    display: inline;
+    text-indent: 10px;
+    font-size: 150%;
+    
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: small;
+    margin: 2%;
+    word-spacing: 2px;
+
+}
+
+    
+
+a {
+    color:#73A942;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 20px;
+    border: #dde5b6 1px;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    
+
+}
+
+.hover:hover {
+    color: #dde5b6;
+    font-size: 150%;
+}
+
+.fa-solid{
+    color: #081c15;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.copy{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align:right;
+}*/
+
+.footer {
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 20px;
+}
+
+.span-link {
+    display: flex;
+    justify-content: center; /* Centra los íconos horizontalmente dentro del contenedor span */
+    gap: 10px; /* Espacio entre los íconos, ajusta según tu preferencia */
+}
+
+.fa-brands {
+    margin: 0 5px; /* Espacio alrededor de los íconos, ajusta según tu preferencia */
+}
+
+.copy {
+    margin-top: 10px; /* Espacio encima del texto de copyright, ajusta según tu preferencia */
+}

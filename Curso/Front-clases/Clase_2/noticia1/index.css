@@ -1,0 +1,24 @@
+
+/* SELECTOR DE TIPO*/
+p {
+    color:rgb(214, 214, 230);
+
+    font-size: 20px;
+}
+
+/*SELECTOR DE CLASE*/
+.colorGris{
+    color: rgb(150, 180, 150);
+}
+
+#especial{
+    color: gold;
+    font-size: 50px;
+}
+
+body{
+    background-color: rgb(192, 191, 131);
+    background-image: url("../Clase_2/imagenes/DESAPARECIDO.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}

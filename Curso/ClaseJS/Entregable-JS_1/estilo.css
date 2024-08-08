@@ -1,0 +1,56 @@
+body {
+    display: flex ;
+    background-color: rgb(43, 214, 226);
+    font-family: italic;
+    margin: 0%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border:  8px solid blanchedalmond ;
+    
+    
+}
+.contenedor {
+    display: flex;/* no se si se debe poner pq ya lo tien el padre(body)*/
+    justify-content: space-between;
+    width: 90%;
+    height:30% ;
+    background-color: rgb(218, 243, 240);
+    border: 5px solid rgb(7, 105, 7)
+}
+.button1{
+    background-color: #f1efef;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.button2{
+    background-color: rgb(241, 241, 241) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    cursor:not-allowed;
+
+}
+
+.box1{
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 255, 64);
+    box-shadow: 5px 5px 15px rgba(97,102,76,0.3);
+    visibility: visible;
+
+}
+.box2 {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    visibility: hidden; /*hidden = ocultar*/
+
+}

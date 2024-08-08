@@ -1,0 +1,87 @@
+.caja1 {
+    display: flex; /* muestra como flexbox */
+    flex-flow: row wrap; /* dirección de fila y envoltura */
+    justify-content: space-around; /* justificación alrededor */
+    align-items: center; /* alineación de elementos al centro */
+            background-color: rgb(134, 187, 54);
+            height: 140px;
+            width:  180px; 
+           position: relative;
+           top: auto;
+           left: 2px;
+        }
+    
+    .caja2 {
+        display: flex;
+        background-color: rgb(107, 105, 105);
+        height: 139px;
+        width:  970px;
+        position: absolute;
+        top: 10px;
+        left: 200px;    
+    }
+    
+    .caja3 {
+        display: flex;
+        background-color: rgb(245, 230, 211);
+        border-style: solid;
+        border-width: 3px;
+        width: 1150px;
+        height: 52px;
+        position: absolute;
+        left: 8;
+        top: 160px;
+
+    }
+    
+    .caja4 {
+        display: flex;
+        background-color: rgb(151, 51, 151);
+        width: 230px;
+        height: 556px;
+        position: relative;
+        top: 85px;
+    }
+    
+    .caja5 {
+        display: flex;
+        background-color: rgb(83, 190, 252);
+        width: 444px;
+        height: 227px;
+        position: absolute;
+        top: 235px;
+        left: 260px;
+    
+    }
+    
+    .caja6 {
+        background-color: rgb(230, 53, 141);
+        width: 444px;
+        height: 227px;
+       position: absolute;
+       top: 235px;
+       left: 725px;
+    }
+    
+    .caja7 {
+        display: flex;
+        background-color: rgb(247, 179, 34);
+        width: 910px;
+        height: 301px;
+        position: absolute;
+       top: 480px;
+       left: 260px;
+       
+    }
+    .caja8 {
+        display: flex;
+        background-color: rgb(56, 215, 236);
+        border-style: dashed;/*linea punteada -*/
+        border-width: 6px;
+        width: 1160px;
+        height: 144px;
+        position: relative;
+        top: 100px;
+    
+    }
+        

@@ -1,0 +1,24 @@
+/*.div{
+  background-color: yellow;
+  border: solid 20px black;
+}
+
+div{
+    border: 3px solid black;
+    display: inline-block;
+}*/
+.encabezado {
+    height: 90px;
+    text-align: left;
+    background-color: #CCCCCC;
+    }
+    .cuerpo {
+    background-color: #666666;
+    color: white;
+    height: 300px
+    }
+    .pie {
+    background-color: #00CCFF;
+    height: 50px
+    }
+

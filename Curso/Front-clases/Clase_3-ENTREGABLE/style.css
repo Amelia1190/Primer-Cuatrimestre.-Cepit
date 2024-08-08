@@ -1,0 +1,125 @@
+
+.contenedor1{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right:  20px auto;
+    justify-content: flex-start;
+    border: 2px solid rgb(206, 16, 104);
+    background-color: rgb(245, 176, 214);
+    align-self: center;
+}
+.adoptar {
+     font-style: italic;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.6; 
+      
+}
+
+
+.contenedor2 {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 20px auto;
+    border: 2px solid #dcf161;
+
+
+ 
+}
+
+.portada {
+        width: 100%; 
+        height: 100%; 
+        background-image: url('./El-Refugio-RoccoPortadaweb.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        text-align: center; 
+        justify-content: center;  
+        align-items: center; 
+    }
+    
+    
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+
+}
+.fecha{
+    font-size: 20px;
+    text-align:right;
+    }
+    
+
+.texto {
+    padding: 40px;
+    background-color: #c0eb70;
+
+}
+.texto p {
+     font-size: 25px;
+    line-height: 1.6;
+        }
+.importante{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.imagen2 {
+    background-image: url('./El-Refugio-Roccoweb1.jpg');
+
+        }
+        p.epigrafeImagen{
+            font-size: 20px;
+            font-style: italic;
+        }
+p.destacado{ 
+        font-style: italic;
+        color: rgb(47, 47, 228);
+        }
+
+  .texto p{
+    font-size: 25px;
+    line-height: 1.6;
+  }
+/*PSEUDO-CLASE*/
+
+  .hover:hover{
+    color: rgb(17, 17, 17);
+    background-color: rgb(172, 235, 27);
+    cursor: pointer;
+ }
+
+ .hover1:hover{
+    color: rgb(17, 17, 17);
+    background-color: rgb(235, 27, 225);
+    cursor: grabbing;
+ }
+
+ /* SELECTOR ANIDADO*/
+li p a{
+    background-color: #121213;
+    color: aliceblue;
+
+}
+/*SELECTOR COMBINADO, Selecciona todos los elementos <p> que son hijos inmediatos (el 1er
+hijo) de un elemento <div>.*/
+
+div > p {
+    background-color: yellow;
+}
+
+/*LINK*/
+.enlace:visited{
+    color:#0909e2;
+    
+}
+
+
+
+
+
+

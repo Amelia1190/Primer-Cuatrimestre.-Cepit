@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./contacto.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+
+<body>
+    <header class="barra">
+        <h1>
+            <span class=nombre>
+                Supermercados Naturalia</span>
+        </h1>
+        <nav class="link">
+            <a class="hover" target="_blank" href="./productos.html">Productos</a>
+            <i class="fa-solid fa-shop"></i>
+            <a class="hover" href="./home.html">Home</a>
+            <i class="fa-solid fa-house"></i>
+        </nav>
+    </header>
+
+    <div class="contactoSuper">
+        <div class="container-info">
+            <h1 class="h1">Contactanos</h1>
+            <p class="text">Tienes alguna duda o sugerencia? ¡Queremos escucharte! En nuestra sección de contacto, encontrarás todas las formas de
+            comunicarte con nosotros. Nuestro equipo está siempre dispuesto a ayudarte y resolver tus inquietudes de manera rápida y
+            personalizada.</p>
+
+            <a class="a"><i class="fa-solid fa-phone"></i> 2284-567489</a>
+            <a class="a"><i class="fa-solid fa-envelope"></i> supermercadonaturalia@gmail.com</a>
+            <a class="a"><i class="fa-solid fa-location-dot"></i> Buenos Aires</a>
+
+        </div>
+    </div>
+    <div class="contactoCliente">
+        <h1 class="h1">Formulario de contacto</h1>
+        <div class="form">
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input class="campo" type="text"  placeholder="Ingresa tu nombre" id="nombre" pattern= "[a-zA-Z+]" required>
+                <label for="apellido">Apellido:</label>
+                <input class="campo" type="text" pattern= "[a-zA-Z+]" required placeholder="Ingresa tu apellido"  id="apellido">
+                <label for="telefono">Telefono:</label>
+                <input class="campo" type="number" pattern="[0-9]{10}" placeholder="Ingresa tu teléfono" id="telefono">
+                <label for="email">Email:</label>
+                <input class="campo" type="text" placeholder="Ingresa tu dirección de email"  id="email">
+                <p>Nos gustaria saber como fue tu experiencia de compra:</p>
+                <textarea  name="Comentario" placeholder="Ingresa tu comentario" id="comentario"></textarea>
+
+
+                <button class="btn-enviar" id="enviar">Enviar</button>
+            </form>
+        </div>
+
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

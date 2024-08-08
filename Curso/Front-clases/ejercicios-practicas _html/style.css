@@ -1,0 +1,94 @@
+/*.inline1{
+    font-style: italic;
+    font-weight: bold;
+
+}
+.inline2{
+    color:red;
+}*/
+/* Flexbox con contenedores*/
+.contenedor{
+    display: flex; /* lo muestra como flexbox*/
+    width: 500%;
+
+}
+.item1{
+    background-color: green;
+    width: 180px;
+    height: 110px;
+    position: absolute;
+}
+.item2{
+    background-color: grey;
+    width: 500px;
+    height: 110px;
+    left: 200px;
+    position: absolute;
+
+}
+.item3{
+    justify-content:flex-start;
+    display: flex;
+        background-color: rgb(245, 230, 211);
+        border-style: solid;
+        border-width: 3px;
+        width: 683px;
+        height: 30px;
+        position: absolute;
+        left: 190;
+        top: 130px;
+}
+.contenedor2{
+display: flex;
+width: 1000px;
+}
+.item4{
+    background-color: rgb(151, 51, 151);
+    width: 180px;
+    height: 450px;
+    position: relative;
+    top: 170px;
+    left: auto;
+
+
+}
+.item5{
+    background-color: rgb(9, 223, 212);
+    width: 245px;
+    height: 180px;
+    position: absolute;
+    top: 180px;
+    left: 110px;
+    justify-items: flex-end;
+    margin-left: 90px;
+}
+.item6{
+    background-color: rgb(223, 9, 91);
+    width: 245px;
+    height: 180px;
+    position: absolute;
+    top: 180px;
+    left: 110px;
+    justify-items: flex-end;
+    margin-left: 340px;
+}
+.item7{
+        background-color: rgb(245, 173, 65);
+        width: 500px;
+        height: 258px;
+        position: absolute;
+        top: 350px;
+        left: 200px; 
+        right: 0; /* Alinear a la derecha */
+        margin-top: 20px; /* Espacio de separación desde el borde superior de la caja anterior */
+    
+}
+.item8{
+        background-color: rgb(56, 215, 236);
+        border-style: dashed; /* Borde punteado */
+        border-width: 6px;
+        width: 680px;
+        height: 144px;
+        position: relative;
+        margin-top: 180px;
+}

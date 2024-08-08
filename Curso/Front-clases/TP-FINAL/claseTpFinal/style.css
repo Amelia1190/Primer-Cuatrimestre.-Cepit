@@ -1,0 +1,11 @@
+.card{
+    width: 150px;
+    height: 180px;
+    background-color: rgb(222, 128, 41);
+    border-radius: 5px;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: space-evenly;
+}

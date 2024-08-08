@@ -1,0 +1,12 @@
+.contenedor-flex{
+    width: 90%;
+    height: 300px;
+    border:1px solid black;
+    display:flex;
+
+/*flex-direction:row;*/
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: start;
+align-content: space-between;
+}
